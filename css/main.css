@@ -1,0 +1,227 @@
+body {
+     font-family: Arial, sans-serif;
+     padding: 0;
+     margin: 0;
+     color: #222222;
+}
+
+.clearfix:after {
+     content:'';
+     display: table;
+     width: 100%;
+     clear: both;
+}
+
+
+div {
+    box-sizing: border-box;
+}
+
+
+
+header {
+  background: url(../img/car.png) no-repeat center top / cover;
+        padding-bottom: 160px;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.logo {
+   margin-top: 41px;
+   float: left;
+}
+
+
+nav {
+    float: right;
+    margin-top: 45px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: inline;
+    margin-right: 41px;
+}
+
+.menu li a {
+   color: #fff;
+   text-decoration: none;
+   text-trnsform: uppercase;
+   font-size: 14px;
+}
+
+
+.titles_first {
+       font-size: 40px;
+       color: #fff;
+       text-transform: uppercase;
+       text-align: center;
+       margin-top: 180px;
+}
+
+
+
+h1 {
+       font-size: 75px;
+       color: #fff;
+       text-transform: uppercase;
+       text-align: center;
+       margin: 15px;
+}
+
+
+.button {
+     background: #fed136;
+     color: #484543;
+     border-radius: 3px;
+     display: block;
+     width: 240px;
+     padding: 20px 0;
+     margin: 0 auto;
+     text-decoration: none;
+     text-align: center;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 18px;
+     margin-top: 50px;
+}
+
+
+
+.title {
+    padding-top: 115px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.title p {
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5;
+}
+
+
+.services { 
+    margin-top: 80px;
+}
+
+
+.services_item {
+   width: 270px;
+   float: left;
+   text-align: center;
+}
+
+
+.services_item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.services_item p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.55em;
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+
+
+
+#services {
+    padding-bottom: 120px;
+}
+
+.services_item:nth-child(2) {
+    margin-left: 60px;
+}
+
+#portfolio {
+    background: #f7f7f7;
+    padding-bottom: 120px;
+}
+
+
+
+
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
+
+
+
+
+
+.contacts {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: -85px;
+}
+
+table {
+    font family: sans serif;
+    text-align: left;
+    border collapse: separate;
+    border-spacing: 5px;
+    background: #fcffb3;
+    color: #000;
+    border: 16px solid #fcffb3;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 240px;
+}
+
+th {
+  font size: 35px;
+  padding: 24px; 
+}
+
+td {
+  background: #fffc4a;
+  padding: 24px;
+}
+
+.post {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3px;
+    width: 750px;
+    height: 500px;
+    display: block;
+}
+
+.info {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align:center;
+    margin-top: 1px;    
+}
+
